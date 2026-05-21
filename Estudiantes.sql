@@ -102,3 +102,12 @@ WHERE nombres = 'Mario' AND apellidos = 'Silva';
 -- Eliminar estudiantes cuya fecha de registro sea anterior a un día específico
 DELETE FROM estudiantes 
 WHERE fecha_registro < '2026-05-15';
+
+
+
+--Modificar Tabla
+
+ALTER TABLE estudiantes ADD COLUMN correo VARCHAR(100);
+
+
+
