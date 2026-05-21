@@ -1,8 +1,15 @@
+--Eliminar Tabla
+drop table estudiantes;
+
+
 create table estudiantes(
   id_estudiante INT,
-  nombres VARCHAR(50),
-  apellidos VARCHAR(50),
+  nombres varchar(50),
+  apellidos varchar(50),
   edad INT,
-  curso VARCHAR(50),
-  fecha_registro VARCHAR(10)
+  curso varchar(50),
+  fecha_registro varchar(10),
+
+
+  constraint estudiantes_pk primary key (id_estudiante)
 );
